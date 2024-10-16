@@ -1,14 +1,12 @@
-import styles from "./page.module.css";
 import Welcome from "../components/page/Welcome";
-import Events from "../components/page/Events";
-import Music from "../components/page/Music";
+import Header from "../components/layout/Header";
+import Footer from "../components/layout/Footer";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <main className={"pageMain"}>
       <Welcome />
-      <Events />
-      <Music />
+      {/* <Footer /> */}
     </main>
   );
 }
