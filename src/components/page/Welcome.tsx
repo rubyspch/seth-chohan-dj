@@ -5,7 +5,6 @@ import styles from "../styles/components.module.css";
 const Welcome = () => {
   return (
     <div className={styles.welcome}>
-      {/* image of dj seth */}
       <img src="/seth.jpg" alt="Photo of Seth DJing" className={styles.image} />
       <h1 className={styles.welcomeHeader}>Seth Chohan</h1>
       <Header />
