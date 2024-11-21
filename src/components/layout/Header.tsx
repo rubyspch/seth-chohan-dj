@@ -33,7 +33,7 @@ const LinkIcon = () => (
   <Image
     width="10"
     height="10"
-    src="seth-chohan-dj/externalLink.svg"
+    src="/seth-chohan-dj/externalLink.svg"
     alt="External link icon"
   />
 );
